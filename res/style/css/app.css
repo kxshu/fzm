@@ -171,7 +171,8 @@ select{
 .title .date{
 	font-size: 24px;
 }
-.title .btn_back{
+.title .btn_back a{
+	display: block;
 	font-size: 38px;
 	padding-right:50px;
 	background: url(images/ico_back.png) right center no-repeat;
@@ -191,7 +192,7 @@ select{
 	display: inline-block;
 	vertical-align: middle;
 }
-.content .notice{
+.index .content .notice{
 	width: 865px;
 }
 .content .notice .notice_t{
@@ -202,7 +203,7 @@ select{
 	border-radius: 10px;
 	padding-left:35px;
 }
-.content .notice .notice_c a{
+.index .content .notice .notice_c a{
 	display: block;
 	background:rgba(144,38,38,0.2);
 	border-radius: 10px;
@@ -212,7 +213,7 @@ select{
 	padding:15px;
 	margin-top: 10px;
 }
-.content .notice .notice_c a.active{
+.index .content .notice .notice_c a.active{
 	display: block;
 	background:rgba(144,38,38,0.5);
 	border-radius: 10px;
@@ -320,7 +321,7 @@ select{
 	bottom:0;
 	right:0;
 }
-.content .ico_kids{
+.index .content .ico_kids{
 	background: url(images/ico_kids.png) 0 0 no-repeat;
 	width: 149px;
 	height: 211px;
@@ -333,4 +334,246 @@ select{
 }
 
 
+.tour-index .map{
+	background: #7e1c12;
+	border:2px solid #7e1c12;
+	border-radius: 10px;
+	position: relative;
+}
+.tour-index .map .ico_kids2{
+	position: absolute;
+	bottom: 0;
+	left:0;
+}
+.tour-index .map .tour_nav{
+	position: absolute;
+	top:30px;
+	left:25px;
+	background: url(images/bg_tour_nav.png) 0 0 no-repeat;
+	width: 637px;
+	height: 86px;
+	line-height: 86px;
+	padding-left:150px;
+	font-size: 22px;
+}
+.tour-index .map .tour_nav li{
+	margin-right:20px;
+}
+.tour-index .map .tour_nav a{
+	background: url(images/bg_radio.png) 0 center no-repeat;
+	padding-left:25px;
 
+}
+.tour-index .map .tour_nav a.active{
+	background: url(images/bg_radio_active.png) 0 center no-repeat;
+}
+.tour-index .map .pop{
+	position: absolute;
+	top:50%;
+	left:50%;
+	background:url(images/bg_pop.png) 0 0 no-repeat;
+	width: 978px;
+	height: 511px;
+	margin-left:-489px;
+	margin-top: -255px;
+}
+.tour-index .map .pop .btn_close{
+	position: absolute;
+	top:-21px;
+	right:-31px;
+}
+.tour-index .map .pop .pop_t{
+	width: 70px;
+	font-size: 36px;
+	margin-left:55px;
+	padding-top:30px; 
+}
+.tour-index .map .pop .pop_c{
+	width: 820px;
+	font-size: 24px;
+	line-height: 40px;
+	padding-top: 50px;
+	padding-right:30px;
+	text-indent: 48px;
+}
+
+.ticket-list .ticket{
+	width: 1740px;
+	overflow: hidden;
+	position: relative;
+}
+.ticket-list .ticket ul{
+	width: 1900px;
+}
+.ticket-list .ticket li{
+	width: 900px;
+	margin-bottom: 50px;
+}
+.ticket-list .ticket .img{
+	background: url(images/bg_img_border.png) 0 0 no-repeat;
+	width: 355px;
+	height: 180px;
+	text-align: center;
+	padding:20px;
+}
+.ticket-list .ticket .info{
+	margin-left: 50px;
+}
+.ticket-list .ticket .info .t{
+	font-size: 36px;
+}
+.ticket-list .ticket .info .t span{
+	color: #a14436;
+	display: inline-block;
+	margin-right: 40px;
+}
+.ticket-list .ticket .btn{
+	margin-top: 70px;
+}
+.ticket-list .ticket .btn .d{
+	display: block;
+	background: url(images/bg_btn.png) 0 0 no-repeat;
+	width: 223px;
+	height: 53px;
+	line-height: 53px;
+	text-align: center;
+	font-size: 30px;
+}
+.ticket-list .ico_kids{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.page{
+	height: 45px;
+	text-align: center;
+}
+.page a{
+	display: inline-block;
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	font-size: 36px;
+	opacity: 0.2;
+}
+.page a img{
+	display: inline-block;
+	vertical-align: middle;
+}
+.page .btn_pre{
+	margin-right:80px;
+}
+.page .btn_next{
+	margin-left:80px;
+}
+.page .active{
+	opacity: 1;
+}
+.ticket-index{
+	position: relative;
+	border-bottom: 1px solid #471610;
+}
+.ticket-index .ticket li{
+	width: 437px;	
+}
+.ticket-index .ticket .img{
+	background: url(images/bg_img_border2.png) 0 0 no-repeat;
+	width: 375px;
+	height: 436px;
+	text-align: center;
+	padding:20px;
+}
+.ticket-index .ticket .info{
+	margin-left: 0;
+}
+.ticket-index .ticket .info div{
+	margin-top:30px;
+}
+.ticket-index .ticket .btn .d{
+	margin:0 auto;
+}
+.ticket-index .ico_kids{
+	width: 132px;
+	left:0;
+}
+.ticket_index_more{
+	border-top:1px solid #7c352d;
+	padding: 30px 0;
+}
+.ticket_index_more .btn_more{
+	background: url(images/ico_a_r.png) right center no-repeat;
+	display: inline-block;
+	padding-right:100px;
+	height: 50px;
+	font-size: 36px;
+}
+.ticket-details .notice{
+	margin-top: 35px;
+}
+.ticket-details .notice_c{
+	padding-top: 10px;
+}
+.ticket-details .notice .info{
+	margin-left: 10px;
+	padding-left: 30px;
+	border-top:1px solid #7c352d;
+	border-bottom: 1px solid #471610;
+	width: 455px;
+	height: 145px;
+}
+.ticket-details .notice .info1{
+	border-top: none;
+}
+
+.ticket-details .notice .info3{
+	border-bottom: none;
+}
+.ticket-details .info .t{
+	font-size: 36px;
+	display: block;
+	margin-top: 15px;
+}
+.ticket-details .info .t span{
+	color: #a14436;
+	display: inline-block;
+	margin-right: 40px;
+}
+
+.ticket-details .ticket_info .info .t{
+	font-size: 40px;
+	display: block;
+	margin-top: 35px;
+}
+.ticket-details .ticket_info .info .t span{
+	color: #a14436;
+	display: inline-block;
+	margin-right: 40px;
+}
+
+.ticket-details .btn{
+	margin-top: 50px;
+}
+.ticket-details .btn .d{
+	display: block;
+	background: url(images/bg_btn2.png) 0 0 no-repeat;
+	width: 341px;
+	height: 91px;
+	line-height: 91px;
+	text-align: center;
+	font-size: 30px;
+}
+.ticket-details .notice_c a{
+	background: url(images/ico_a_r.png) right center no-repeat
+}
+.ticket-details .ticket_info{
+	background: url(images/bg_panel.png) 0 0 no-repeat;
+	width: 784px;
+	height: 815px;
+	padding:30px;
+}
+.ticket-details .ticket_info .txt{
+	font-size: 25px;
+	line-height: 35px;
+	text-indent: 48px;
+	margin-top: 20px;
+}
