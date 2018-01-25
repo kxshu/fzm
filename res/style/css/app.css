@@ -605,3 +605,10 @@ select{
 	text-indent: 48px;
 	margin-top: 20px;
 }
+
+.news-list .notice{
+	width: 1740px;
+}
+.news-list{
+	position: relative;
+}
