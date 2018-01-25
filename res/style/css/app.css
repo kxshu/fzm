@@ -294,7 +294,7 @@ select{
 	font-size: 24px;
 	line-height: 40px;
 	text-indent: 48px;
-	height: 500px;
+	height: 440px;
 	overflow-y: scroll;
 }
 .content .notice_info .b_tl{
@@ -352,6 +352,7 @@ select{
 	position: absolute;
 	bottom: 0;
 	left:0;
+	z-index: 999;
 }
 .tour-index .map .tour_nav{
 	position: absolute;
@@ -363,6 +364,7 @@ select{
 	line-height: 86px;
 	padding-left:150px;
 	font-size: 22px;
+	z-index: 999;
 }
 .tour-index .map .tour_nav li{
 	margin-right:20px;
@@ -404,7 +406,6 @@ select{
 	padding-right:30px;
 	text-indent: 48px;
 }
-
 .ticket-list .ticket{
 	width: 1740px;
 	overflow: hidden;
@@ -423,6 +424,10 @@ select{
 	height: 180px;
 	text-align: center;
 	padding:20px;
+}
+.ticket-list .ticket .img img{
+	width: 355px;
+	height: 180px;
 }
 .ticket-list .ticket .info{
 	margin-left: 50px;
@@ -491,6 +496,10 @@ select{
 	text-align: center;
 	padding:20px;
 }
+.ticket-index .ticket .img img{
+	width: 373px;
+	height: 434px;
+}
 .ticket-index .ticket .info{
 	margin-left: 0;
 }
@@ -515,11 +524,22 @@ select{
 	height: 50px;
 	font-size: 36px;
 }
+.ticket-details .tk{
+	width: 854px;
+	height: 332px;
+	overflow: hidden;
+}
+.ticket-details .tk img{
+	width: 854px;
+	height: 332px;
+}
 .ticket-details .notice{
 	margin-top: 35px;
 }
 .ticket-details .notice_c{
 	padding-top: 10px;
+	height: 440px;
+	overflow-y: scroll;
 }
 .ticket-details .notice .info{
 	margin-left: 10px;
