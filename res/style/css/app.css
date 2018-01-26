@@ -386,6 +386,7 @@ select{
 	height: 511px;
 	margin-left:-489px;
 	margin-top: -255px;
+	z-index: 999;
 }
 .tour-index .map .pop .btn_close{
 	position: absolute;
@@ -393,18 +394,38 @@ select{
 	right:-31px;
 }
 .tour-index .map .pop .pop_t{
-	width: 70px;
+	width: 60px;
+	height: 140px;
+	overflow:hidden;
 	font-size: 36px;
 	margin-left:55px;
 	padding-top:30px; 
 }
 .tour-index .map .pop .pop_c{
-	width: 820px;
+	width: 800px;
+	height: 400px;
+	overflow: auto;
 	font-size: 24px;
 	line-height: 40px;
 	padding-top: 50px;
 	padding-right:30px;
 	text-indent: 48px;
+	margin-top: 20px;
+	margin-left: 25px;
+}
+.scroll::-webkit-scrollbar {/*滚动条整体样式*/
+	width: 10px;     /*高宽分别对应横竖滚动条的尺寸*/
+	height: 1px;
+}
+.scroll::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+	background: #9B3420;
+}
+.scroll::-webkit-scrollbar-track {/*滚动条里面轨道*/
+	-webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+	border-radius: 10px;
+	background: none;
 }
 .ticket-list .ticket{
 	width: 1740px;
