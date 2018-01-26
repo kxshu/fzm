@@ -593,6 +593,10 @@ select{
 .ticket-details .notice_c a{
 	background: url(images/ico_a_r.png) right center no-repeat
 }
+.ticket-details .notice_c img{
+	width: 359px;
+	height: 138px;
+}
 .ticket-details .ticket_info{
 	background: url(images/bg_panel.png) 0 0 no-repeat;
 	width: 784px;
@@ -604,6 +608,8 @@ select{
 	line-height: 35px;
 	text-indent: 48px;
 	margin-top: 20px;
+	height: 490px;
+	overflow-y: scroll;
 }
 
 .news-list .notice{
@@ -611,4 +617,13 @@ select{
 }
 .news-list{
 	position: relative;
+}
+.news-list .notice li{
+	background: url(images/ico_point.png) 20px center no-repeat;
+}
+.news-list .notice .notice_c a{
+	padding-left:50px;
+}
+.news-list .notice .notice_c a.active{
+	padding-left:50px;
 }
